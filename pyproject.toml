@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello_tdietel"
+version = "0.0.1"
+authors = [
+  { name="Tom Dietel", email="tom@dietel.net" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tdietel/python-hello"
+"Bug Tracker" = "https://github.com/tdietel/python-hello/issues"
+
+[project.scripts]
+hello = "hello_tdietel.hello:hello"
