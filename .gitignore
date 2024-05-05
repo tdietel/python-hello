@@ -1,3 +1,4 @@
 /src/*.egg-info
-/venv
+/.venv
+/docs/build
 __pycache__
