@@ -47,3 +47,13 @@ Sphinx Needs will be added later to manage requirements.
 .. note::
   Documentation will be stored as reStructuredText files and managed by Sphinx.
 
+----------------
+Directory layout
+----------------
+
+Sphinx offers two directory layouts:
+one where text files are placed at the root of the documents folder, and built files end up in a _build directory, 
+while the other layout has a source and a build folder next to each other.
+The default seems to be a split setup with separate source and build directories.
+However, I prefer to have only a directory for sources, and therefore keep build as a subdirectory.
+
