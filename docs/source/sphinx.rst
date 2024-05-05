@@ -38,8 +38,12 @@ It uses reStructuredText by default and can be configured to use markdown.
 Choice of documentation system
 ------------------------------
 
-Based on this, I decided to switch to Sphinx and reStructuredText for documentation.
+Based on the broad usage within Python-related and other projects and the availability of extensions for VS Code, Sphinx is chosen as the documentation format.
 
+Sphinx natively supports reStructuredText as the underlying text format and markdown via an extension.
+Preference is given here to the native reStructuredText format, because fewer problems are expected with future extensions such as Sphinx Needs.
 Sphinx Needs will be added later to manage requirements.
 
+.. note::
+  Documentation will be stored as reStructuredText files and managed by Sphinx.
 

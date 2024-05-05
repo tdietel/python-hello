@@ -6,15 +6,30 @@
 Welcome to Hello's documentation!
 =================================
 
+The `Hello` project is a playground, demonstration and template for other project repositories.
+It provides a "Hello, world!" program, written in Python, with all bells and whistles.
+
+The features demonstrated so far are:
+  - Python project layout with `pyproject.toml` and setuptools.
+  - Command line interface with Click.
+  - Documentation with Sphinx.
+
+The ToDo list for future features includes:
+  - Requirements management with Sphinx Needs.
+  - Testing, most likely with pytest.
+
+
+Contents
+--------
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    sphinx
 
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
