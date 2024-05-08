@@ -1,0 +1,4 @@
+sphinx
+sphinxcontrib-mermaid
+sphinxcontrib-plantuml
+sphinx-needs[plotting]
